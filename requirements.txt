@@ -1,0 +1,13 @@
+# YouTube Data API client
+google-api-python-client==2.200.0
+
+# BigQuery loading (pyarrow + db-dtypes are required by load_table_from_dataframe)
+google-cloud-bigquery==3.40.1
+pyarrow==23.0.1
+db-dtypes==1.5.0
+
+# Data processing
+pandas==2.3.3
+
+# Environment variables (.env)
+python-dotenv==1.2.2

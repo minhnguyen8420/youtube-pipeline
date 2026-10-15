@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets
+.env
+*.pem
+*.key
+*key.json
+credentials.json
+
+# Data & output
+data/
+*.csv
+*.parquet
+logs/
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
